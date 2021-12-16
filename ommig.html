@@ -4,9 +4,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- Ekstra stylesheet til burgermenuen -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <title>Om mig</title>
 </head>
 <body>
-    
+    <!-- Har brugt javascriptet fra vores bollywood hjemmeside til at få burgermenuen til at virke -->
+    <script src="script.js"></script>
+    <header id="myHeader" class="grid1">
+        <nav class="topnav">
+            <a href="index.html"><img id="logo" src="img/LogoV2.png" alt="Logo"></a>
+            <a href="index.html"><h1 class="KKlip">KatrineKlip. dk</h1></a>
+            <!-- <div class="flexnav">
+                <a href="index.html"><img id="logo" src="img/LogoV2.png" alt="Logo"></a>
+                <a href="index.html"><h1 class="KKlip">KatrineKlip. dk</h1></a>
+            </div> -->
+            <a class="icon" onclick="openMenu()">
+                <i class="fa fa-bars burger"></i>
+            </a>
+        </nav>
+        <div id="myLinks">
+            <a href="index.html">Forside</a>
+            <a href="musikvideoer.html">Musikvideoer</a>
+            <a href="dronefotograf.html">Dronefotograf</a>
+            <a href="webdesign.html">Webdesign</a>
+            <a href="andrevideoer.html">Andre videoer</a>
+            <a href="ommig.html">Om mig</a>
+        </div>
+    </header>
 </body>
 </html>

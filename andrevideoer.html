@@ -4,25 +4,91 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- Ekstra stylesheet til burgermenuen -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <title>Andre videoer</title>
 </head>
 <body>
-    <h1>Andre videoer</h1>
-    <!-- Lavalampe -->
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/TX6JYNrSsYg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <!-- Har brugt javascriptet fra vores bollywood hjemmeside til at få burgermenuen til at virke -->
+    <script src="script.js"></script>    
+    <header id="myHeader" class="grid1">
+        <nav class="topnav">
+            <a href="index.html"><img id="logo" src="img/LogoV2.png" alt="Logo"></a>
+            <a href="index.html"><h1 class="KKlip">Andre Videoer</h1></a>
+            <!-- <div class="flexnav">
+                <a href="index.html"><img id="logo" src="img/LogoV2.png" alt="Logo"></a>
+                <a href="index.html"><h1 class="KKlip">KatrineKlip. dk</h1></a>
+            </div> -->
+            <a class="icon" onclick="openMenu()">
+                <i class="fa fa-bars burger"></i>
+            </a>
+        </nav>
+        <div id="myLinks">
+            <a href="index.html">Forside</a>
+            <a href="musikvideoer.html">Musikvideoer</a>
+            <a href="dronefotograf.html">Dronefotograf</a>
+            <a href="webdesign.html">Webdesign</a>
+            <a href="andrevideoer.html">Andre videoer</a>
+            <a href="ommig.html">Om mig</a>
+        </div>
+    </header>
+<!-- Lavalampe -->
+    <section>
+        <h1>Lav en lavalampe</h1>
+        <p></p>
+        <iframe class="video" height="315" src="https://www.youtube.com/embed/TX6JYNrSsYg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media;   picture-in-picture" allowfullscreen></iframe>
+    </section>
     <!-- Babyrytmik -->
-    <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FBallerupMusikskole%2Fvideos%2F2407032292949420%2F&show_text=false&width=560&t=0" width="560" height="314" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
+    <section>
+        <h1>Babyrytmik</h1>
+        <p></p>
+        <iframe class="video" src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FBallerupMusikskole%2Fvideos%2F2407032292949420%2F&show_text=false&width=560&t=0" width="560" height="314" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
+    </section>
     <!-- Mødrehjælpen -->
-    <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fmeremonitor2750%2Fvideos%2F2049931571698276%2F&show_text=false&width=560&t=0" width="560" height="314" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
+    <section>
+        <h1>Mødrehjælpen</h1>
+        <p></p>
+        <iframe class="video" src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fmeremonitor2750%2Fvideos%2F2049931571698276%2F&show_text=false&width=560&t=0" width="560" height="314" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
+    </section>
     <!-- Unperfekt -->
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/OMPMbW5Es7s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <section>
+        <h1>Unperfekt</h1>
+        <p></p>
+        <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/OMPMbW5Es7s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
     <!-- Lightrunner? -->
-
+    <!-- <section>
+        <h1>Lightrunner</h1>
+        <p></p>
+    </section> -->
     <!-- Unholy Christmas -->
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/9jbFJEf1miY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <!-- Perfume -->
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/E-UIlPbKNmE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <!-- Have a bad day -->
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/xieHkLdMaPU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <section>
+        <h1>Unholy Christmas</h1>
+        <p></p>
+        <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/9jbFJEf1miY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
+        <!-- Perfume -->
+    <section>
+        <h1>Perfume</h1>
+        <p></p>
+        <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/E-UIlPbKNmE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
+        <!-- Have a bad day -->
+    <section>
+        <h1>Have a bad day</h1>
+        <p></p>
+        <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/xieHkLdMaPU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
+   
+        
+        
+
+    
+        
+
+        
+
+        
 </body>
 </html>

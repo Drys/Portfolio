@@ -105,11 +105,11 @@ a {
 
 
 /* placering af billeder så de fylder hele skærmbreden */
-#forsidebilleder{
+.forsidebilleder{
     width: 100%;
 }
 /* placering af sectioner med billeder og tekst */
-#secBillede{
+.secBillede{
     margin: 0;
     padding: 0;
     position: relative;
@@ -117,7 +117,7 @@ a {
     display: flex;
 }
 /* placering af selve teksten på billedene */
-#onImg{
+.onImg{
     margin: 0;
     padding: 0;
     position: absolute;
@@ -154,6 +154,14 @@ a {
 }
 .label{
     color: var(--aqua);
+}
+
+
+
+/* andre videoer */
+.video{
+    width: 100%;
+
 }
 
 
