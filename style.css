@@ -3,10 +3,23 @@ body{
     margin: 0;
     padding: 0;
 }
+@font-face{
+    font-family: 'James Hayley';
+    src: url('fonts/James\ Hayley.ttf') format('truetype');
+    font-family: 'Californian Regular';
+    src: url('fonts/CALIFR.TTF') format('truetype');
+    font-family: 'Californian Bold';
+    src: url('fonts/CALIFB.TTF') format('truetype');
+    font-family: 'Californian Italic';
+    src: url('fonts/CALIFI.TTF') format('truetype');
+}
+
+
 /* placering af billeder så de fylder hele skærmbreden */
 #forsidebilleder{
     width: 100%;
 }
+/* placering af sectioner med billeder og tekst */
 #secBillede{
     margin: 0;
     padding: 0;
@@ -14,6 +27,7 @@ body{
     color: white;
     display: flex;
 }
+/* placering af selve teksten på billedene */
 #onImg{
     margin: 0;
     padding: 0;
@@ -21,7 +35,12 @@ body{
     text-align: center;
     left: 50%;
     transform: translate(-50%,-50%);
-    bottom: 0;
+    bottom: -10%;
+    width: 100%;
+    height: 16%;
+    font-family: 'Californian Bold';
+    font-size: 24px;
+    background-color: tomato;
 }
 
 
