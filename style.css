@@ -22,10 +22,10 @@
     src: url('fonts/CALIFI.TTF') format('truetype');
 }
 
-
 body{
     margin: 0;
     padding: 0;
+    background-color: var(--sky);
 }
 a {
     text-decoration: none;
@@ -60,8 +60,8 @@ a {
     flex-direction: column;
     font-family:var(--creg);
     font-size: 30px;
-    padding-bottom: 2%;
-    padding-top: 2%;
+    padding-bottom: 3%;
+    padding-top: 1%;
 }
 #myLinks a{
     color: var(--aqua);
@@ -131,6 +131,31 @@ a {
     font-size: 20px;
     background-color: var(--chocosee);
 }
+.kontakt{
+    text-align: center;
+    color: var(--aqua);
+}
+
+.kontakt h1{
+    font-family: var(--cbold);
+    font-size: 30px;
+}
+.kontakt h2{
+    font-family: var(--creg);
+    font-size: 20px;
+}
+
+#mig{
+    width: 50%;
+}
+
+.label, #navn, #mail, #besked, #send{
+    font-family: var(--creg);
+}
+.label{
+    color: var(--aqua);
+}
+
 
 
 /* for desktop version */
