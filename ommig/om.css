@@ -94,8 +94,6 @@ a {
     align-content: center;
     font-family: var(--james);
     font-size: 30px ;
-
-
 }
 
 
@@ -103,42 +101,17 @@ a {
 
 
 
-
-/* placering af billeder så de fylder hele skærmbreden */
-.forsidebilleder{
-    width: 100%;
-}
-/* placering af sectioner med billeder og tekst */
-.secBillede{
-    margin: 0;
-    padding: 0;
-    position: relative;
-    color: var(--sand);
-    display: flex;
-}
-/* placering af selve teksten på billedene */
-.onImg{
-    margin: 0;
-    padding: 0;
-    position: absolute;
-    text-align: center;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    bottom: -10%;
-    width: 100%;
-    height: 16%;
-    font-family: var(--creg);
-    font-size: 20px;
-    background-color: var(--chocosee);
-}
 .kontakt{
     text-align: center;
     color: var(--aqua);
+    padding: 5%;
 }
 
 .kontakt h1{
     font-family: var(--cbold);
     font-size: 30px;
+    margin: 0;
+    padding: 0;
 }
 .kontakt h2{
     font-family: var(--creg);
@@ -146,12 +119,43 @@ a {
 }
 .kontakt p{
     font-family: var(--creg);
-    
+    /* padding-top: 1.5%; */
 }
 
 
-#mig{
-    width: 40%;
+#drone, #mig{
+    width: 45%;
+    height: 45%;
+    padding-top: 5%;
+}
+.dronetekst, .hvemerjeg{
+    display: flex;
+    justify-content: space-between;
+}
+.left{
+    padding-left: 5%;
+}
+.right{
+    padding-right: 5%;
+}
+
+
+
+.kontaktInfo{
+    text-align: center;
+    color: var(--aqua);
+    padding: 0;
+}
+
+.kontaktInfo h1{
+    font-family: var(--cbold);
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+}
+.kontaktInfo h2{
+    font-family: var(--creg);
+    font-size: 20px;
 }
 
 .label, #navn, #mail, #besked, #send{
@@ -160,23 +164,14 @@ a {
 .label{
     color: var(--aqua);
 }
-
-
-
-/* andre videoer */
-.video{
-    width: 100%;
-
-}
-
-/* Om mig */
-#drone{
-    width: 40%;
-}
-.dronetekst, .hvemerjeg{
-    display: flex;
+form{
     padding: 5%;
 }
+
+
+
+/* Om mig */
+
 
 /* for desktop version */
 /* @media screen and (min-width: 992px){

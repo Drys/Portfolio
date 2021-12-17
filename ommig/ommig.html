@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="om.css">
+    <!-- Ekstra stylesheet til burgermenuen -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <title>Om mig</title>
+</head>
+<body>
+    <!-- Har brugt javascriptet fra vores bollywood hjemmeside til at få burgermenuen til at virke -->
+    <script src="../script.js"></script>
+    <header id="myHeader" class="grid1">
+        <nav class="topnav">
+            <a href="../index.html"><img id="logo" src="../img/LogoV2.png" alt="Logo"></a>
+            <a href="../index.html"><h1 class="KKlip">Om  Mig</h1></a>
+            <!-- <div class="flexnav">
+                <a href="index.html"><img id="logo" src="img/LogoV2.png" alt="Logo"></a>
+                <a href="index.html"><h1 class="KKlip">KatrineKlip. dk</h1></a>
+            </div> -->
+            <a class="icon" onclick="openMenu()">
+                <i class="fa fa-bars burger"></i>
+            </a>
+        </nav>
+        <div id="myLinks">
+            <a href="../index.html">Forside</a>
+            <a href="../MV/musikvideoer.html">Musikvideoer</a>
+            <a href="../drone/dronefotograf.html">Dronefotograf</a>
+            <a href="../web/webdesign.html">Webdesign</a>
+            <a href="../andre/andrevideoer.html">Andre videoer</a>
+            <a href="ommig.html">Om mig</a>
+        </div>
+    </header>
+
+
+    <section class=kontakt>
+        <h1>Katrine Klip</h1>
+        <div class="hvemerjeg">
+            <img id="mig" src="../img/Mig.jpg" alt="Billed af Katrine Klip">
+            <p class="left">Hvem er jeg? Hvem er jeg? Hvem er jeg? Hvem er jeg? Hvem er jeg? Hvem er jeg?
+                Hvem er jeg? Hvem er jeg? Hvem er jeg?Hvem er jeg? Hvem er jeg? Hvem er jeg? Hvem er jeg? Hvem er jeg? Hvem er jeg?
+                Hvem er jeg? 
+            </p>
+        </div>
+        <div class="dronetekst">
+            <p class="right">Dronefotograf tekst Dronefotograf tekst Dronefotograf tekst Dronefotograf tekst
+                Dronefotograf tekst Dronefotograf tekst
+            </p>
+            <img id="drone" src="../img/Drone.PNG" alt="Billed af europæisk dronebevis">
+        </div>
+
+    </section>
+
+
+    <!-- kontakt info -->
+    <section class=kontaktInfo>
+        <h1>Kontakt mig</h1>
+        <h2>Katrine Klip</h2>
+        <h2>+45 28 57 06 94</h2>
+        <h2>drys@live.dk</h2>
+
+        <h1>Eller bliv kontaktet</h1>
+        <form action="mailto:drys@live.dk" method="post" enctype="multipart/form-data" name="KatrineKlip.dk">
+            <label for="navn" class="label" >Dit navn</label>
+            <br>
+            <input type="text" id="navn" name="fuldname" placeholder="Skriv dit navn...">
+            <br><br>
+            <label for="mail" class="label">Din e-mail</label>
+            <br>
+            <input type="text" id="mail" name="e-mail" placeholder="Skriv din e-mail...">
+            <br><br>
+            <label for="besked" class="label">Din besked</label>
+            <br>
+            <input type="text" id="besked" name="message" placeholder="Skriv din besked...">
+            <br><br>
+            <input type="submit" id="send" value="Send">
+        </form>
+    </section>
+
+
+</body>
+</html>
