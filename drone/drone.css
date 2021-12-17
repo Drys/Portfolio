@@ -62,6 +62,9 @@ a {
     font-size: 30px;
     padding-bottom: 3%;
     padding-top: 1%;
+    border-color: var(--aqua);
+    border-style: double;
+    border-width: 10px;
 }
 #myLinks a{
     color: var(--aqua);

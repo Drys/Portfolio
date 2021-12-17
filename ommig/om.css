@@ -13,13 +13,13 @@
 
 @font-face{
     font-family: 'James Hayley';
-    src: url('fonts/James\ Hayley.ttf') format('truetype');
+    src: url('../fonts/James\ Hayley.ttf') format('truetype');
     font-family: 'Californian Regular';
-    src: url('fonts/CALIFR.TTF') format('truetype');
+    src: url('../fonts/Californian\ FB\ Regular.ttf') format('truetype');
     font-family: 'Californian Bold';
-    src: url('fonts/CALIFB.TTF') format('truetype');
+    src: url('../fonts/Californian\ FB\ Bold.ttf') format('truetype');
     font-family: 'Californian Italic';
-    src: url('fonts/CALIFI.TTF') format('truetype');
+    src: url('../fonts/Californian\ FB\ Italic.ttf') format('truetype');
 }
 
 body{
@@ -62,6 +62,9 @@ a {
     font-size: 30px;
     padding-bottom: 3%;
     padding-top: 1%;
+    border-color: var(--aqua);
+    border-style: double;
+    border-width: 10px;
 }
 #myLinks a{
     color: var(--aqua);
