@@ -99,7 +99,48 @@ a {
     font-size: 30px ;
 }
 
-
+/* Denne section er footeren */
+/* Overordnet styling på footeren */
+#footer{
+    background-color: var(--aqua);
+    color: var(--sky);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: var(--cital);
+    font-size: 14px;
+    height: 60px;}
+/* Styling på linkedIn logo i footeren */
+#linkedInfoot{
+    width: 45px;
+    margin: 20%;}
+/* Styling på teksten i footeren, bruges til at give 
+tekstfelterne mere plads, da noget tekst eller flyttes på ny linje */
+#infofoot{
+    margin: 3%;
+    width: 70%;}
+/* Sørger for at kontakt infoen står på samme linje */
+#tekstfoot{
+    display: flex;}
+/* Giver plads mellem kontakt info tekst*/
+.pfoot{
+    margin:2%;}
+/* Den lange sætning har brug for lidt ekstra plads */
+#kontaktk{
+    width: 40%;}
+/* pladsering af copyright icon & tekst */
+#copyDiv{
+    display: flex;
+    justify-content: center;}
+/* størrelse på copyright icon */
+.copyikon{
+    width: 1rem;
+    height: 1rem;}
+/* Giver plads mellem icon og tekst og fjerner plads mellem tekst og kontakt info tekst */
+#copytext{
+    margin: 0%;
+    padding-left: 2%;}
+/* Her slutter footeren */
 
 
 
@@ -164,8 +205,13 @@ a {
 .label{
     color: var(--aqua);
 }
-form{
-    padding: 5%;
+textarea{
+    width: 40%;
+    height: 100px;
+}
+
+#send{
+    margin-bottom: 3%;
 }
 
 
