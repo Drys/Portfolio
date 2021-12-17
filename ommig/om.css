@@ -113,10 +113,7 @@ a {
     margin: 0;
     padding: 0;
 }
-.kontakt h2{
-    font-family: var(--creg);
-    font-size: 20px;
-}
+
 .kontakt p{
     font-family: var(--creg);
     /* padding-top: 1.5%; */

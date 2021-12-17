@@ -13,13 +13,13 @@
 
 @font-face{
     font-family: 'James Hayley';
-    src: url('fonts/James\ Hayley.ttf') format('truetype');
+    src: url('../fonts/James\ Hayley.ttf Hayley.ttf') format('truetype');
     font-family: 'Californian Regular';
-    src: url('fonts/CALIFR.TTF') format('truetype');
+    src: url('../fonts/Californian\ FB\ Regular.ttf') format('truetype');
     font-family: 'Californian Bold';
-    src: url('fonts/CALIFB.TTF') format('truetype');
+    src: url('../fonts/Californian\ FB\ Bold.ttf') format('truetype');
     font-family: 'Californian Italic';
-    src: url('fonts/CALIFI.TTF') format('truetype');
+    src: url('../fonts/Californian\ FB\ Italic.ttf') format('truetype');
 }
 
 body{
@@ -99,84 +99,28 @@ a {
 }
 
 
-
-
-
-
-
-/* placering af billeder så de fylder hele skærmbreden */
-.forsidebilleder{
-    width: 100%;
-}
-/* placering af sectioner med billeder og tekst */
-.secBillede{
-    margin: 0;
-    padding: 0;
-    position: relative;
-    color: var(--sand);
-    display: flex;
-}
-/* placering af selve teksten på billedene */
-.onImg{
-    margin: 0;
-    padding: 0;
-    position: absolute;
-    text-align: center;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    bottom: -10%;
-    width: 100%;
-    height: 16%;
-    font-family: var(--creg);
-    font-size: 20px;
-    background-color: var(--chocosee);
-}
-.kontakt{
-    text-align: center;
+/* andre videoer */
+h1{
     color: var(--aqua);
-}
-
-.kontakt h1{
     font-family: var(--cbold);
     font-size: 30px;
+    text-align: center;
+    /* padding-right: 5%;
+    padding-left: 5%; */
 }
-.kontakt h2{
-    font-family: var(--creg);
-    font-size: 20px;
-}
-.kontakt p{
-    font-family: var(--creg);
-    
-}
-
-
-#mig{
-    width: 40%;
-}
-
-.label, #navn, #mail, #besked, #send{
-    font-family: var(--creg);
-}
-.label{
+p{
     color: var(--aqua);
+    font-family: var(--creg);
+    padding-right: 5%;
+    padding-left: 5%;
+
 }
 
-
-
-/* andre videoer */
 .video{
     width: 100%;
-
+    height: 234px;
 }
 
-/* Om mig */
-#drone{
-    width: 40%;
-}
-.dronetekst, .hvemerjeg{
-    display: flex;
-    padding: 5%;
-}
 
 /* for desktop version */
 /* @media screen and (min-width: 992px){
