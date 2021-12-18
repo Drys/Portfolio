@@ -169,6 +169,7 @@ tekstfelterne mere plads, da noget tekst eller flyttes på ny linje */
     padding-left: 5%;
     margin: 0;
     margin-block-end: 0.7rem;
+    text-align: justify;
 }
 
 .video{

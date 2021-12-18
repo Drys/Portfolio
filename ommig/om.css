@@ -168,9 +168,11 @@ tekstfelterne mere plads, da noget tekst eller flyttes på ny linje */
 }
 .left{
     padding-left: 5%;
+    text-align: justify;
 }
 .right{
     padding-right: 5%;
+    text-align: justify;
 }
 
 
