@@ -146,6 +146,14 @@ tekstfelterne mere plads, da noget tekst eller flyttes på ny linje */
 /* Her slutter footeren */
 
 
+
+/* Tekst, som linker til andre sider */
+.insidetekst{
+    font-family: var(--cital);
+    color: var(--choco);
+}
+
+
 .sec h1{
     color: var(--aqua);
     font-family: var(--cbold);

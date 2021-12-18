@@ -145,6 +145,13 @@ tekstfelterne mere plads, da noget tekst eller flyttes på ny linje */
 
 
 
+.insidetekst{
+    font-family: var(--cital);
+    color: var(--choco);
+}
+
+
+
 .kontakt{
     text-align: center;
     color: var(--aqua);

@@ -145,11 +145,20 @@ tekstfelterne mere plads, da noget tekst eller flyttes på ny linje */
 /* Her slutter footeren */
 
 
+/* Tekst, som linker til andre sider */
+.insidetekst{
+    font-family: var(--cital);
+    color: var(--choco);
+}
+
+
 .sec h1{
     color: var(--aqua);
     font-family: var(--cbold);
     font-size: 30px;
     text-align: center;
+    margin-block-start: 00.7rem;
+    margin-block-end: 00.7rem;
     /* padding-right: 5%;
     padding-left: 5%; */
 }
@@ -158,6 +167,8 @@ tekstfelterne mere plads, da noget tekst eller flyttes på ny linje */
     font-family: var(--creg);
     padding-right: 5%;
     padding-left: 5%;
+    margin: 0;
+    margin-block-end: 0.7rem;
 }
 
 .video{
