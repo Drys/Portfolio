@@ -32,10 +32,7 @@ a {
 }
 /* Navigationsbar */
 
-
 /* Burgermenu */
-
-
 
 /* fra bollywood */
 /* Her starter header + burger */
@@ -83,20 +80,26 @@ a {
     width: 50px;
 }
 .topnav a{
-    /* color: black; */
     padding: 5px 16px;
     text-decoration: none;
-    /* font-size: 20px; */
     display: block;
 }
-.KKlip{
+
+#myDesk{
+    display: none;
+}
+.side{
     margin: 0;
-    padding-top: 10px;
+    padding-top: 3%;
     text-decoration: none;
     color: var(--sky);
     align-content: center;
     font-family: var(--james);
-    font-size: 30px ;
+    font-size: 40px;
+}
+
+.topnav a.KKlip{
+    display: none;
 }
 
 /* Denne section er footeren */
@@ -177,7 +180,45 @@ tekstfelterne mere plads, da noget tekst eller flyttes på ny linje */
     height: 234px;
 }
 
-/* for desktop version */
-/* @media screen and (min-width: 992px){
 
-} */
+/* for desktop version */
+@media screen and (min-width: 992px){
+    /* Header start */
+    /* fjerner burger*/
+    .topnav a.icon{
+        display: none;}
+    #myLinks{
+        display: none;}
+
+    /* Sætter Desktop nav bar i steder gor */
+    #myDesk{
+        display: flex;
+        background-color: var(--aqua);
+        position: sticky;
+        float: right;
+        padding-top: 2%;
+    }
+    #myDesk a{
+        color: var(--sky);
+        font-size: 20px;
+        }
+    .topnav a.KKlip{
+        display: flex;
+        margin: 0;
+        padding-top: 0;
+        text-decoration: none;
+        color: var(--sky);
+        align-content: center;
+        font-family: var(--james);
+        font-size: 36px;
+        }
+    .topnav a.KKlip h1{
+        margin: 0;
+        padding: 0;
+    }
+    .side{
+        display: none;
+    }
+
+    /* Header slut */
+}

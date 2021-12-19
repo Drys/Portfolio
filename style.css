@@ -84,20 +84,26 @@ a {
     width: 50px;
 }
 .topnav a{
-    /* color: black; */
     padding: 5px 16px;
     text-decoration: none;
-    /* font-size: 20px; */
     display: block;
 }
-.KKlip{
+#myDesk{
+    display: none;
+}
+
+.topnav a.KKlip{
     margin: 0;
-    padding-top: 10px;
+    padding-top: 3%;
     text-decoration: none;
     color: var(--sky);
     align-content: center;
     font-family: var(--james);
-    font-size: 30px ;
+    font-size: 24px;
+}
+.topnav a.KKlip h1{
+    margin: 0;
+    padding: 0;
 }
 
 
@@ -217,6 +223,33 @@ textarea{
 }
 
 /* for desktop version */
-/* @media screen and (min-width: 992px){
+@media screen and (min-width: 992px){
+/* Header start */
+/* fjerner burger*/
+.topnav a.icon{
+    display: none;
+}
+#myLinks{
+    display: none;
+}
 
-} */
+/* Sætter Desktop nav bar i steder gor */
+#myDesk{
+    display: flex;
+    background-color: var(--aqua);
+    position: sticky;
+    float: right;
+    padding-top: 2%;
+}
+#myDesk a{
+    color: var(--sky);
+    font-size: 20px;
+    }
+.topnav a.KKlip{
+    padding-top: 0%;
+    font-size: 36px;
+    }
+/* Header slut */
+
+}
+
