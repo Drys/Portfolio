@@ -158,22 +158,24 @@ tekstfelterne mere plads, da noget tekst eller flyttes på ny linje */
 
 
 #drone, #mig{
-    width: 45%;
+    width: 40vw;
     height: 45%;
     padding-top: 5%;
+}
+#drone{
+    padding-left: 5%;
+}
+#mig{
+    padding-right: 5%;
 }
 .dronetekst, .hvemerjeg{
     display: flex;
     justify-content: space-between;
 }
-.left{
-    padding-left: 5%;
+.tekst{
     text-align: justify;
 }
-.right{
-    padding-right: 5%;
-    text-align: justify;
-}
+
 
 
 
@@ -192,6 +194,9 @@ tekstfelterne mere plads, da noget tekst eller flyttes på ny linje */
 .kontaktInfo h2{
     font-family: var(--creg);
     font-size: 20px;
+}
+.kontaktInfo h1.eller{
+    margin-bottom: 3%;
 }
 
 .label, #navn, #mail, #besked, #send{

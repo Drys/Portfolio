@@ -10,8 +10,7 @@
     <title>Om mig</title>
 </head>
 <body>
-    <!-- Har brugt javascriptet fra vores bollywood hjemmeside til at få burgermenuen til at virke -->
-    <script src="../script.js"></script>
+    <!-- Har brugt headeren fra vores bollywood hjemmeside og JavaScript til at få burgermenuen til at virke -->
     <header id="myHeader" class="grid1">
         <nav class="topnav">
             <a href="../index.html"><img id="logo" src="../img/LogoV2.png" alt="Logo"></a>
@@ -34,23 +33,22 @@
         </div>
     </header>
 
-
     <section class=kontakt>
         <h1>Katrine Klip</h1>
         <div class="hvemerjeg">
             <img id="mig" src="../img/Mig.jpg" alt="Billed af Katrine Klip">
-            <p class="left">Katrine Thyrsted Kristiansen er mit rigtige navn, 
-                men jeg fik mit tilnavn Klip da jeg arbejdede i musikprojektet 
+            <p class="tekst">Katrine Thyrsted Kristi&shy;ansen er mit rigtige navn, 
+                men jeg fik mit tilnavn Klip da jeg arbejdede i musik&shy;projektet 
                 <a class="insidetekst" href="../MV/musikvideoer.html">Mere Monitor Ballerup</a>,
                 da jeg har flair for at optage og redigere video.
                 Hvis du vil se nogle af de
-                <a class="insidetekst" href="../MV/musikvideoer.html">
+                <a class="insidetekst" href="../andre/andrevideoer.html">
                     andre videoer jeg har lavet kan du klikke her</a>.
  
             </p>
         </div>
         <div class="dronetekst">
-            <p class="right">
+            <p class="tekst">
                 Jeg fik mit 
                 <a class="insidetekst" href="../drone/dronefotograf.html">dronebevis</a>
                 i november 2017 og har siden optaget med drone fx på
@@ -70,7 +68,7 @@
         <h2>+45 28 57 06 94</h2>
         <h2>drys@live.dk</h2>
 
-        <h1>Eller bliv kontaktet</h1>
+        <h1 class="eller">Eller bliv kontaktet</h1>
         <form action="mailto:drys@live.dk" method="post" enctype="multipart/form-data" name="KatrineKlip.dk">
             <label for="navn" class="label" >Dit navn</label>
             <br>
@@ -82,7 +80,7 @@
             <br><br>
             <label for="besked" class="label">Din besked</label>
             <br>
-            <textarea type="text" id="besked" name="message" placeholder="Skriv din besked..."></textarea>
+            <textarea id="besked" name="message" placeholder="Skriv din besked..."></textarea>
             <br><br>
             <input type="submit" id="send" value="Send">
         </form>
@@ -91,7 +89,7 @@
         <!-- Har brugt en del div'er for at få footeren til at se ud som jeg gerne ville.
         Se css'en for at se hvad de forskellige dele gør-->
     <footer id="footer">
-        <a href="https://www.linkedin.com/in/katrine-thyrsted-kristiansen-88a634224/">
+        <a href="https://www.linkedin.com/in/katrine-thyrsted-kristiansen-88a634224/" target="_blank">
             <img id="linkedInfoot" src="../img/linkedin.png" alt="link til min linkedin"></a>
         <div id="infofoot">
             <div id="tekstfoot">
@@ -105,5 +103,7 @@
             </div> 
         </div>
     </footer>
+    <!-- Har brugt javascriptet fra vores bollywood hjemmeside til at få burgermenuen til at virke -->
+    <script src="../script.js"></script>
 </body>
 </html>
