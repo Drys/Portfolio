@@ -171,7 +171,7 @@ tekstfelterne mere plads, da noget tekst eller flyttes på ny linje */
     /* padding-right: 5%;
     padding-left: 5%; */
 }
-.sec p{
+.sec p, .secRev p{
     color: var(--aqua);
     font-family: var(--creg);
     padding-right: 5%;

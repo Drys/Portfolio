@@ -337,7 +337,7 @@ textarea{
         display: block;
         font-family: var(--cbold);
         font-size: 30px;
-        margin-block-start: 1rem;
+        margin-block-start: 0;
         margin-block-end: 1rem;
         text-align: left;
     }
@@ -376,7 +376,7 @@ textarea{
         display: block;
         font-family: var(--cbold);
         font-size: 30px;
-        margin-block-start: 1rem;
+        margin-block-start: 0;
         margin-block-end: 1rem;
         text-align: left;
     }

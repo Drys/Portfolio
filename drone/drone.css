@@ -161,7 +161,11 @@ tekstfelterne mere plads, da noget tekst eller flyttes på ny linje */
 }
 
 
-.sec h1{
+.headLine{
+    display: none;
+}
+
+.sec h2, .secRev h2{
     color: var(--aqua);
     font-family: var(--cbold);
     font-size: 30px;
@@ -171,7 +175,7 @@ tekstfelterne mere plads, da noget tekst eller flyttes på ny linje */
     /* padding-right: 5%;
     padding-left: 5%; */
 }
-.sec p{
+.sec p, .secRev p{
     color: var(--aqua);
     font-family: var(--creg);
     padding-right: 5%;
@@ -179,10 +183,9 @@ tekstfelterne mere plads, da noget tekst eller flyttes på ny linje */
     text-align: justify;
 }
 
-.billeder {
+.billeder, .billederRev {
     width: 100%;
 }
-
 
 
 
@@ -219,7 +222,7 @@ tekstfelterne mere plads, da noget tekst eller flyttes på ny linje */
         font-family: var(--james);
         font-size: 36px;
         }
-    .topnav a.KKlip h1{
+    .topnav a.KKlip h2{
         margin: 0;
         padding: 0;
     }
@@ -259,7 +262,62 @@ tekstfelterne mere plads, da noget tekst eller flyttes på ny linje */
     width: 1.2rem;
     height: 1.2rem;}
 #copytext{
-    font-size: 16;
+    font-size: 16px;
 }
 /* Her slutter footeren */
+
+
+/* Side overskrift tilføjes */
+.headLine{
+    display: block;
+    font-family: var(--james);
+    font-size: 80px;
+    color: var(--aqua);
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
 }
+
+.billeder{
+    display:block;
+    width: 40vw;
+    height: 275px;
+    object-fit: cover;
+    margin-left: 6.66vw;
+}
+.billederRev{
+    display:block;
+    width: 40vw;
+    height: 275px;
+    object-fit: cover;
+    margin-right: 6.66vw;
+}
+.sec{
+    display: flex;
+}
+.secRev{
+    display: flex;
+    flex-direction: row-reverse;
+}  
+.tekst{
+    width: 40vw;
+    margin-left: 6.66vw;
+    margin-bottom: 6.66vw;
+}
+.tekstRev{
+    width: 40vw;
+    margin-right: 6.66vw;
+    margin-bottom: 6.66vw;
+}
+.sec h2, .secRev h2{
+    text-align: left;
+    margin-block-start: 0;
+}
+.sec p, .secRev p{
+    padding: 0;
+    margin-block-end: 0;
+    font-size: 20px;
+}
+
+}
+
