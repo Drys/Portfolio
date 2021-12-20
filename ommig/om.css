@@ -380,6 +380,12 @@ textarea{
         margin-block-end: 1rem;
         text-align: left;
     }
+    .hvemerjeg p{
+        font-size: 20px;
+    }
+    .dronetekst p{
+        font-size: 20px;
+    }
 
 
     /* Kontaktdelen */
