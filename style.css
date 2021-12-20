@@ -243,6 +243,7 @@ textarea{
 }
 #myDesk a{
     color: var(--sky);
+    font-family: var(--cbold);
     font-size: 20px;
     }
 .topnav a.KKlip{
@@ -250,6 +251,41 @@ textarea{
     font-size: 36px;
     }
 /* Header slut */
+
+/* Footer start */
+#linkedInfoot{
+    margin: 0%;}
+#infofoot{
+    display: flex;
+    margin: 0%;}
+#tekstfoot{
+    width: 70%;
+    align-items: center;
+    justify-content: center;
+}
+.pfoot{
+    margin:4%;
+    font-size: 18px;
+}
+/* Den lange sætning har brug for lidt ekstra plads */
+#kontaktk{
+    width: 28%;
+}
+/* pladsering af copyright icon & tekst */
+#copyDiv{
+    width: 30%;
+    align-items: center;
+    justify-content: right;
+}
+/* størrelse på copyright icon */
+.copyikon{
+    width: 1.2rem;
+    height: 1.2rem;}
+#copytext{
+    font-size: 16;
+}
+/* Her slutter footeren */
+
 
 }
 
