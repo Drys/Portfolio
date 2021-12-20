@@ -155,6 +155,12 @@ tekstfelterne mere plads, da noget tekst eller flyttes på ny linje */
 
 
 
+.headLine{
+    display: none;
+}
+.hide{
+    display: none;
+}
 
 
 /* placering af billeder så de fylder hele skærmbreden */
@@ -285,6 +291,79 @@ textarea{
     font-size: 16;
 }
 /* Her slutter footeren */
+
+.headLine{
+    display: block;
+    font-family: var(--james);
+    font-size: 80px;
+    color: var(--aqua);
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.flexSec{
+    display: flex;
+}
+
+/* placering af billeder på forsiden */
+.forsidebilleder{
+    width: 40vw;
+    height: 275px;
+    object-fit: cover;
+    margin-left: 6.66vw;
+    margin-bottom: 6.66vw;
+}
+
+/* placering af selve teksten på billedene */
+.onImg{
+    margin-left: 6.66vw;
+    margin-bottom: 6.66vw;
+    left: 40vw;
+    transform: translate(-100%,-50%);
+    bottom: -8%;
+    width: 40vw;
+    font-size: 44px;
+}
+/* .kontakt{
+    text-align: center;
+    color: var(--aqua);
+} */
+
+/* .kontakt h1{
+    font-family: var(--cbold);
+    font-size: 30px;
+} */
+/* .kontakt h2{
+    font-family: var(--creg);
+    font-size: 20px;
+} */
+/* .kontakt p{
+    font-family: var(--creg);
+    
+} */
+
+/* 
+#mig{
+    width: 40%;
+} */
+
+/* .label, #navn, #mail, #besked, #send{
+    font-family: var(--creg);
+} */
+/* .label{
+    color: var(--aqua);
+}
+textarea{
+    width: 40%;
+    height: 100px;
+}
+
+#send{
+    margin-bottom: 3%;
+} */
+
+
 
 
 }
