@@ -101,7 +101,7 @@ a {
     font-family: var(--james);
     font-size: 24px;
 }
-.topnav a.KKlip h1{
+.topnav a.KKlip h2{
     margin: 0;
     padding: 0;
 }
@@ -195,11 +195,11 @@ tekstfelterne mere plads, da noget tekst eller flyttes på ny linje */
     color: var(--aqua);
 }
 
-.kontakt h1{
+.kontakt h3{
     font-family: var(--cbold);
     font-size: 30px;
 }
-.kontakt h2{
+.kontakt h4{
     font-family: var(--creg);
     font-size: 20px;
 }
@@ -288,10 +288,11 @@ textarea{
     width: 1.2rem;
     height: 1.2rem;}
 #copytext{
-    font-size: 16;
+    font-size: 16px;
 }
 /* Her slutter footeren */
 
+/* Side overskrift tilføjes */
 .headLine{
     display: block;
     font-family: var(--james);
@@ -302,10 +303,10 @@ textarea{
     margin-bottom: 1.5rem;
 }
 
+/* Sætter 2*2 sections med billerde ved siden af henanden */
 .flexSec{
     display: flex;
 }
-
 /* placering af billeder på forsiden */
 .forsidebilleder{
     width: 40vw;
@@ -314,7 +315,6 @@ textarea{
     margin-left: 6.66vw;
     margin-bottom: 6.66vw;
 }
-
 /* placering af selve teksten på billedene */
 .onImg{
     margin-left: 6.66vw;
@@ -325,44 +325,31 @@ textarea{
     width: 40vw;
     font-size: 44px;
 }
-/* .kontakt{
-    text-align: center;
-    color: var(--aqua);
-} */
 
-/* .kontakt h1{
-    font-family: var(--cbold);
-    font-size: 30px;
-} */
-/* .kontakt h2{
-    font-family: var(--creg);
+/* Kontaktdelen */
+.kontakt{
+    display: flex;
+}
+.konMargin, #mig{
+    margin-left: 6.66vw;
+}
+.kontakt h3{
+    margin-top: 0;
+    font-size: 40px;
+}
+.kontakt h4{
+    margin: 10%;
     font-size: 20px;
-} */
-/* .kontakt p{
-    font-family: var(--creg);
-    
-} */
-
-/* 
+}
 #mig{
-    width: 40%;
-} */
-
-/* .label, #navn, #mail, #besked, #send{
-    font-family: var(--creg);
-} */
-/* .label{
-    color: var(--aqua);
+    width: 25vw;
+    height: 100%;
 }
 textarea{
-    width: 40%;
-    height: 100px;
+    width: 30vw;
+    height: 62px;
 }
-
-#send{
-    margin-bottom: 3%;
-} */
-
+/* Kontaktdelen slutter */
 
 
 

@@ -26,7 +26,7 @@
     <header id="myHeader">
         <nav class="topnav">
             <a href="index.html"><img id="logo" src="img/LogoV2.png" alt="Logo"></a>
-            <a href="index.html"  class="KKlip"><h1>KatrineKlip. dk</h1></a>
+            <a href="index.html"  class="KKlip"><h2>KatrineKlip. dk</h2></a>
             <a class="icon" onclick="openMenu()">
                 <i class="fa fa-bars burger"></i>
             </a>
@@ -50,64 +50,68 @@
 
     <h1 class="headLine">KatrineKlip. dk</h1>
     <section class="flexSec">
-        <h1 class="hide">ForsideSection</h1>
+        <h2 class="hide">ForsideSection</h2>
         <!-- section 1 musikvideoer -->
         <a href="MV/musikvideoer.html">
             <section class="secBillede" >
-                <h1 class="onImg">Musikvideoer</h1>
+                <h3 class="onImg">Musikvideoer</h3>
                 <img class="forsidebilleder" src="img/TobiasKirk.PNG" alt="Billed fra Tobias Kirk's musikvideo - Sidste Minut">
             </section>
         </a>
         <!-- section 2 dronefotograf -->
         <a href="drone/dronefotograf.html">
             <section class="secBillede">
-                <h1 class="onImg">Dronefotograf</h1>
+                <h3 class="onImg">Dronefotograf</h3>
                 <img class="forsidebilleder" src="img/Droneskud.PNG" alt="Billed taget med drone">
             </section>
         </a>
     </section>
     <section class="flexSec">
-        <h1 class="hide">ForsideSection</h1>
+        <h2 class="hide">ForsideSection</h2>
         <!-- section 3 webdesign -->
         <a href="web/webdesign.html">
             <section class="secBillede">
-                <h1 class="onImg">Webdesign</h1>
+                <h3 class="onImg">Webdesign</h3>
                 <img class="forsidebilleder" src="img/Karma.PNG" alt="Billed af Karma bollywood dans og kultur hjemmeside">
             </section>
         </a>
         <!-- section 4 andre videoer -->
         <a href="andre/andrevideoer.html">
             <section class="secBillede">
-                <h1 class="onImg">Andre videoer</h1>
+                <h3 class="onImg">Andre videoer</h3>
                 <img class="forsidebilleder" src="img/Lava.PNG" alt="Billed fra en DIY video om hvordan man laver en lavalampe">
             </section>
         </a>
     </section>
 
-
     <!-- section 5 kontakt -->
     <section class=kontakt>
-        <h1>Kontakt mig</h1>
-        <h2>Katrine Klip</h2>
-        <h2>+45 28 57 06 94</h2>
-        <h2>drys@live.dk</h2>
+        <div class="konMargin">
+            <h3>Kontakt mig</h3>
+            <h4>Katrine Klip</h4>
+            <h4>+45 28 57 06 94</h4>
+            <h4>drys@live.dk</h4>
+        </div>
         <img id="mig" src="img/Mig.jpg" alt="Billed af Katrine Klip">
-        <h1>Eller bliv kontaktet</h1>
-        <form action="mailto:drys@live.dk" method="post" enctype="multipart/form-data" name="KatrineKlip.dk">
-            <label for="navn" class="label" >Dit navn</label>
-            <br>
-            <input type="text" id="navn" name="fuldname" placeholder="Skriv dit navn...">
-            <br><br>
-            <label for="mail" class="label">Din e-mail</label>
-            <br>
-            <input type="text" id="mail" name="e-mail" placeholder="Skriv din e-mail...">
-            <br><br>
-            <label for="besked" class="label">Din besked</label>
-            <br>
-            <textarea id="besked" name="message" placeholder="Skriv din besked..."></textarea>
-            <br><br>
-            <input type="submit" id="send" value="Send">
-        </form>
+        <div class="konMargin">
+            <h3>Eller bliv kontaktet</h3>
+            <form action="mailto:drys@live.dk" method="post" enctype="multipart/form-data" name="KatrineKlip.dk">
+                <label for="navn" class="label" >Dit navn</label>
+                <br>
+                <input type="text" id="navn" name="fuldname" placeholder="Skriv dit navn...">
+                <br><br>
+                <label for="mail" class="label">Din e-mail</label>
+                <br>
+                <input type="text" id="mail" name="e-mail" placeholder="Skriv din e-mail...">
+                <br><br>
+                <label for="besked" class="label">Din besked</label>
+                <br>
+                <textarea id="besked" name="message" placeholder="Skriv din besked..."></textarea>
+                <br><br>
+                <input type="submit" id="send" value="Send">
+            </form>
+        </div>
+        
     </section>
     <!-- footer -->
         <!-- Har brugt en del div'er for at få footeren til at se ud som jeg gerne ville.
