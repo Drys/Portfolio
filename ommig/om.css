@@ -136,44 +136,59 @@ tekstfelterne mere plads, da noget tekst eller flyttes på ny linje */
 /* Her slutter footeren */
 
 
-
 /* Tekst, som linker til andre sider */
 .insidetekst{
     font-family: var(--cital);
     color: var(--choco);
 }
 
+.headLine{
+    display: none;
+}
 
+#mig2{
+    display: none;
+}
+
+#pc{
+    display: none;
+}
+
+.kontakt .hvemerjeg h3{
+    display: none;
+}
 
 .kontakt{
     text-align: center;
     color: var(--aqua);
-    padding: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
-.kontakt h1{
+
+.kontakt h2{
     font-family: var(--cbold);
     font-size: 30px;
-    margin: 0;
-    padding: 0;
+    margin-block-start: 1rem;
+    margin-block-end: 1rem;
 }
 
 .kontakt p{
     font-family: var(--creg);
-    /* padding-top: 1.5%; */
+    margin: 0;
 }
 
 
 #drone, #mig{
     width: 40vw;
     height: 45%;
-    padding-top: 5%;
 }
 #drone{
     padding-left: 5%;
 }
 #mig{
     padding-right: 5%;
+    padding-bottom: 5%;
 }
 .dronetekst, .hvemerjeg{
     display: flex;
@@ -192,19 +207,22 @@ tekstfelterne mere plads, da noget tekst eller flyttes på ny linje */
     padding: 0;
 }
 
-.kontaktInfo h1{
+.kontaktInfo h3{
     font-family: var(--cbold);
     font-size: 30px;
-    margin: 0;
-    padding: 0;
+    margin-block-start: 1rem;
+    margin-block-end: 1rem;
 }
-.kontaktInfo h2{
+.kontaktInfo h4{
     font-family: var(--creg);
     font-size: 20px;
+    margin-block-start: 1rem;
+    margin-block-end: 1rem;
 }
-.kontaktInfo h1.eller{
+
+/* .kontaktInfo.konMargin h3.eller{
     margin-bottom: 3%;
-}
+} */
 
 .label, #navn, #mail, #besked, #send{
     font-family: var(--creg);
@@ -231,7 +249,7 @@ textarea{
         display: none;}
     #myLinks{
         display: none;}
-
+    
     /* Sætter Desktop nav bar i steder gor */
     #myDesk{
         display: flex;
@@ -255,48 +273,139 @@ textarea{
         font-family: var(--james);
         font-size: 36px;
         }
-    .topnav a.KKlip h1{
+    .topnav a.KKlip h2{
         margin: 0;
         padding: 0;
     }
     .side{
         display: none;
     }
-
     /* Header slut */
-
+    
     /* Footer start */
-#linkedInfoot{
-    margin: 0%;}
-#infofoot{
-    display: flex;
-    margin: 0%;}
-#tekstfoot{
-    width: 70%;
-    align-items: center;
-    justify-content: center;
-}
-.pfoot{
-    margin:4%;
-    font-size: 18px;
-}
-/* Den lange sætning har brug for lidt ekstra plads */
-#kontaktk{
-    width: 28%;
-}
-/* pladsering af copyright icon & tekst */
-#copyDiv{
-    width: 30%;
-    align-items: center;
-    justify-content: right;
-}
-/* størrelse på copyright icon */
-.copyikon{
-    width: 1.2rem;
-    height: 1.2rem;}
-#copytext{
-    font-size: 16;
-}
-/* Her slutter footeren */
+    #linkedInfoot{
+        margin: 0%;}
+    #infofoot{
+        display: flex;
+        margin: 0%;}
+    #tekstfoot{
+        width: 70%;
+        align-items: center;
+        justify-content: center;
+    }
+    .pfoot{
+        margin:4%;
+        font-size: 18px;
+    }
+    /* Den lange sætning har brug for lidt ekstra plads */
+    #kontaktk{
+        width: 28%;
+    }
+    /* pladsering af copyright icon & tekst */
+    #copyDiv{
+        width: 30%;
+        align-items: center;
+        justify-content: right;
+    }
+    /* størrelse på copyright icon */
+    .copyikon{
+        width: 1.2rem;
+        height: 1.2rem;}
+    #copytext{
+        font-size: 16px;
+    }
+    /* Her slutter footeren */
+
+    /* Side overskrift tilføjes */
+    .headLine{
+        display: block;
+        font-family: var(--james);
+        font-size: 80px;
+        color: var(--aqua);
+        text-align: center;
+        margin-top: 1rem;
+        margin-bottom: 1.5rem;
+    }
+
+    #mig {
+        display: none;
+    }
+    .kontakt h2{
+        display: none;
+    }
+    .kontakt .hvemerjeg h3{
+        display: block;
+        font-family: var(--cbold);
+        font-size: 30px;
+        margin-block-start: 1rem;
+        margin-block-end: 1rem;
+        text-align: left;
+    }
+    #pc{
+        display:block;
+        width: 40vw;
+        height: 275px;
+        object-fit: cover;
+        margin-left: 6.66vw;
+    }
+    .kontakt {
+        padding: 0;
+    }
+    .flex{
+        display: flex;
+        margin: 6.66vw;
+    }
+
+    .hvemerjeg {
+        display: block;
+        width: 40vw;
+    }
+    #drone{
+        padding: 0;
+        display:block;
+        width: 40vw;
+        height: 275px;
+        object-fit: cover;
+        margin-right: 6.66vw;
+    }
+    .dronetekst{
+        flex-direction: row-reverse;
+        margin: 6.66vw;
+    }
+    .dronetekst h3{
+        display: block;
+        font-family: var(--cbold);
+        font-size: 30px;
+        margin-block-start: 1rem;
+        margin-block-end: 1rem;
+        text-align: left;
+    }
+
+
+    /* Kontaktdelen */
+    .kontaktInfo{
+        display: flex;
+    }
+    .konMargin, #mig2{
+        margin-left: 6.66vw;
+    }
+    .kontaktInfo h3{
+        margin-top: 0;
+        font-size: 40px;
+    }
+    .kontaktInfo h4{
+        margin: 10%;
+        font-size: 20px;
+    }
+    #mig2{
+        display:block;
+        width: 25vw;
+        height: 100%;
+    }
+    textarea{
+        width: 30vw;
+        height: 62px;
+    }
+    /* Kontaktdelen slutter */
 
 }

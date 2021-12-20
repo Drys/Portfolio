@@ -15,7 +15,7 @@
         <nav class="topnav">
             <a href="../index.html"><img id="logo" src="../img/LogoV2.png" alt="Logo"></a>
             <h1 class="side">Om  Mig</h1>
-            <a href="../index.html" class="KKlip"><h1>KatrineKlip. dk</h1></a>
+            <a href="../index.html" class="KKlip"><h2>KatrineKlip. dk</h2></a>
             <a class="icon" onclick="openMenu()">
                 <i class="fa fa-bars burger"></i>
             </a>
@@ -37,64 +37,74 @@
         </div>
     </header>
 
+    <h1 class="headLine">Om  Mig</h1>
     <section class=kontakt>
-        <h1>Katrine Klip</h1>
-        <div class="hvemerjeg">
-            <img id="mig" src="../img/Mig.jpg" alt="Billed af Katrine Klip">
-            <p class="tekst">Katrine Thyrsted Kristi&shy;ansen er mit rigtige navn, 
-                men jeg fik mit tilnavn Klip da jeg arbejdede i musik&shy;projektet 
-                <a class="insidetekst" href="../MV/musikvideoer.html">Mere Monitor Ballerup</a>,
-                da jeg har flair for at optage og redigere video.
-                Hvis du vil se nogle af de
-                <a class="insidetekst" href="../andre/andrevideoer.html">
-                    andre videoer jeg har lavet kan du klikke her</a>.
- 
-            </p>
+        <h2>Katrine Klip</h2>
+        <div class="flex">
+            <section class="hvemerjeg">
+                <img id="mig" src="../img/Mig.jpg" alt="Billed af Katrine Klip">
+                <h3>Katrine Klip</h3>
+                <p class="tekst">Katrine Thyrsted Kristi&shy;ansen er mit rigtige navn, 
+                    men jeg fik mit tilnavn Klip da jeg arbejdede i musik&shy;projektet 
+                    <a class="insidetekst" href="../MV/musikvideoer.html">Mere Monitor Ballerup</a>,
+                    da jeg har flair for at optage og redigere video.
+                    Hvis du vil se nogle af de
+                    <a class="insidetekst" href="../andre/andrevideoer.html">
+                        andre videoer jeg har lavet kan du klikke her</a>.
+                </p>
+            </section>
+            <img id="pc" src="../img/KatrineKlip_MereM.jpg" alt="Katrine Klip foran computeren">
         </div>
-        <div class="dronetekst">
-            <p class="tekst">
-                Jeg fik mit 
-                <a class="insidetekst" href="../drone/dronefotograf.html">dronebevis</a>
-                i november 2017 og har siden optaget med drone fx på
-                flere af de musikvideoer jeg har lavet for 
-            <a class="insidetekst" href="../MV/musikvideoer.html">Mere Monitor Ballerup</a>.
-            </p>
+        <section class="dronetekst">
+            <div>
+                <h3>Dronefotograf</h3>
+                <p class="tekst">
+                    Jeg fik mit 
+                    <a class="insidetekst" href="../drone/dronefotograf.html">dronebevis</a>
+                    i november 2017 og har siden optaget med drone fx på
+                    flere af de musikvideoer jeg har lavet for 
+                <a class="insidetekst" href="../MV/musikvideoer.html">Mere Monitor Ballerup</a>.
+                </p>
+            </div>
             <img id="drone" src="../img/Drone.PNG" alt="Billed af europæisk dronebevis">
-        </div>
-
+        </section>
     </section>
 
 
     <!-- kontakt info -->
     <section class=kontaktInfo>
-        <h1>Kontakt mig</h1>
-        <h2>Katrine Klip</h2>
-        <h2>+45 28 57 06 94</h2>
-        <h2>drys@live.dk</h2>
-
-        <h1 class="eller">Eller bliv kontaktet</h1>
-        <form action="mailto:drys@live.dk" method="post" enctype="multipart/form-data" name="KatrineKlip.dk">
-            <label for="navn" class="label" >Dit navn</label>
-            <br>
-            <input type="text" id="navn" name="fuldname" placeholder="Skriv dit navn...">
-            <br><br>
-            <label for="mail" class="label">Din e-mail</label>
-            <br>
-            <input type="text" id="mail" name="e-mail" placeholder="Skriv din e-mail...">
-            <br><br>
-            <label for="besked" class="label">Din besked</label>
-            <br>
-            <textarea id="besked" name="message" placeholder="Skriv din besked..."></textarea>
-            <br><br>
-            <input type="submit" id="send" value="Send">
-        </form>
+        <div class="konMargin">
+            <h3>Kontakt mig</h3>
+            <h4>Katrine Klip</h4>
+            <h4>+45 28 57 06 94</h4>
+            <h4>drys@live.dk</h4>
+        </div>
+        <img id="mig2" src="../img/Mig.jpg" alt="Billed af Katrine Klip">
+        <div class="konMargin">
+            <h3>Eller bliv kontaktet</h3>
+            <form action="mailto:drys@live.dk" method="post" enctype="multipart/form-data" name="KatrineKlip.dk">
+                <label for="navn" class="label" >Dit navn</label>
+                <br>
+                <input type="text" id="navn" name="fuldname" placeholder="Skriv dit navn...">
+                <br><br>
+                <label for="mail" class="label">Din e-mail</label>
+                <br>
+                <input type="text" id="mail" name="e-mail" placeholder="Skriv din e-mail...">
+                <br><br>
+                <label for="besked" class="label">Din besked</label>
+                <br>
+                <textarea id="besked" name="message" placeholder="Skriv din besked..."></textarea>
+                <br><br>
+                <input type="submit" id="send" value="Send">
+            </form>
+        </div>
     </section>
     <!-- footer -->
         <!-- Har brugt en del div'er for at få footeren til at se ud som jeg gerne ville.
         Se css'en for at se hvad de forskellige dele gør-->
     <footer id="footer">
         <a href="https://www.linkedin.com/in/katrine-thyrsted-kristiansen-88a634224/" target="_blank">
-            <img id="linkedInfoot" src="../img/linkedin.png" alt="link til min linkedin"></a>
+            <img id="linkedInfoot" src="../img/linkedin.png" alt="link til min linkedin profil"></a>
         <div id="infofoot">
             <div id="tekstfoot">
                 <p class="pfoot" id="kontaktk">Kontakt Katrine Klip</p>

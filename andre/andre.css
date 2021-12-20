@@ -167,8 +167,8 @@ tekstfelterne mere plads, da noget tekst eller flyttes på ny linje */
     font-family: var(--cbold);
     font-size: 30px;
     text-align: center;
-    margin-block-start: 00.7rem;
-    margin-block-end: 00.7rem;
+    margin-block-start: 1rem;
+    margin-block-end: 1rem;
     /* padding-right: 5%;
     padding-left: 5%; */
 }

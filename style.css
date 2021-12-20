@@ -198,14 +198,17 @@ tekstfelterne mere plads, da noget tekst eller flyttes på ny linje */
 .kontakt h3{
     font-family: var(--cbold);
     font-size: 30px;
+    margin-block-start: 1rem;
+    margin-block-end: 1rem;
 }
 .kontakt h4{
     font-family: var(--creg);
     font-size: 20px;
+    margin-block-start: 1rem;
+    margin-block-end: 1rem;
 }
 .kontakt p{
     font-family: var(--creg);
-    
 }
 
 
